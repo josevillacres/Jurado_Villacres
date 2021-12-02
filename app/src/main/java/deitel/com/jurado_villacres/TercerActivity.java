@@ -37,8 +37,6 @@ public class TercerActivity extends AppCompatActivity {
 
 
     public double Potencia(double base, double exponente){
-        double base= Float.valueOf(editTextBase.getText().toString());
-        double exponente=Float.valueOf(editTextExponente.getText().toString());
         return Math.pow(base,exponente);
     }
 
