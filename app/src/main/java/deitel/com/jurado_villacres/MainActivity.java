@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnSiguiente=findViewById(R.id.buttonSiguiente);
-        btnMostrarResultado=findViewById(R.id.buttonMostrarResultados);
+        btnMostrarResultado=findViewById(R.id.buttonCerrar);
         editTextNombre = findViewById(R.id.editTextNombre);
         editTextApellido = findViewById(R.id.editTextApellido);
         editTextExponente = findViewById(R.id.editTextExponente);

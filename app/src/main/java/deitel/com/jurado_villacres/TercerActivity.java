@@ -33,6 +33,8 @@ public class TercerActivity extends AppCompatActivity {
         editTextNombre.setEnabled(false);
         editTextBase.setEnabled(false);
 
+
+
     }
 
 

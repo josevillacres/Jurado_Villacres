@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">Jurado_Villacres</string>
+
+    <string name="tv_nombre">Nombre: </string>
+    <string name="et_nombre">nombre</string>
+    <string name="tv_apellido">Apellido: </string>
+    <string name="et_apelldio">epellido</string>
+    <string name="tv_base">Base: </string>
+    <string name="et_base">base</string>
+    <string name="tv_exponente">Exponente: </string>
+    <string name="et_exponente">exponente</string>
+    <string name="tv_factorial">Factorial: </string>
+    <string name="et_factorial">factorial</string>
+    <string name="tv_pontencia">Potencia: </string>
+    <string name="et_pontencia">potencia</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_mostrarResultados">Mostrar Resultados</string>
+
+    <string name="tv_3v_factorial">Numero (Factorial): </string>
+    <string name="et_3v_factorial">número factorial</string>
+    <string name="btn_cerrar">Cerrar</string>
+
+    <string name="Nombre">Nombre</string>
+    <string name="Nombret">Nombre</string>
+    <string name="Base">Base</string>
+    <string name="Baset">Base</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="btnCerrar">Cerrar</string>
+
 </resources>
