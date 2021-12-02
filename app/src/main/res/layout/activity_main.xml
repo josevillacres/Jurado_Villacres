@@ -119,11 +119,13 @@
         android:id="@+id/buttonSiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="siguente"
         android:text="@string/btn_siguiente" />
 
     <Button
         android:id="@+id/buttonMostrarResultados"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="mostrarResultados"
         android:text="@string/btn_mostrarResultados" />
 </LinearLayout>

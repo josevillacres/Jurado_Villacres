@@ -16,5 +16,7 @@
     <string name="btn_siguiente">Siguiente</string>
     <string name="btn_mostrarResultados">Mostrar Resultados</string>
 
+    <string name="tv_3v_factorial">Numero (Factorial): </string>
+    <string name="et_3v_factorial">número factorial</string>
 
 </resources>
