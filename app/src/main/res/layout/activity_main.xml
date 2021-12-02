@@ -116,13 +116,13 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSiguiente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_siguiente" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonMostrarResultados"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btn_mostrarResultados" />
