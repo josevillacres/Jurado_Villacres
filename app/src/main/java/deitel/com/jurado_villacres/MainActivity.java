@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         editTextExponente = findViewById(R.id.editTextExponente);
         editTextBase = findViewById(R.id.editTextBase);
         editTextPotencia = findViewById(R.id.editTextPotencia);
-        editTextFactorial = findViewById(R.id.editTextFactorial);
+        editTextFactorial = findViewById(R.id.editTextNumeroFactorial);
         // bloqueo
         editTextFactorial.setEnabled(false);
         editTextPotencia.setEnabled(false);

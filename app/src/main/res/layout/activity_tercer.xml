@@ -83,18 +83,24 @@
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tv_factorial"
+        android:text="@string/tv_3v_factorial"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextFactorial"
+        android:id="@+id/editTextNumeroFactorial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:editable="false"
         android:ems="10"
-        android:hint="@string/et_factorial"
+        android:hint="@string/et_3v_factorial"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/buttonCerrar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_cerrar" />
 
 </LinearLayout>
