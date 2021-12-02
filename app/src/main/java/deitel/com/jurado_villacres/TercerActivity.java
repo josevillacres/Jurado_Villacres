@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class TercerActivity extends AppCompatActivity {
 
@@ -15,6 +16,10 @@ public class TercerActivity extends AppCompatActivity {
     private EditText editTextPotencia;
     private EditText editTextNumeroFactorial;
     private Button btnCerrar;
+
+    private TextView tv1;
+    private TextView tv2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +37,14 @@ public class TercerActivity extends AppCompatActivity {
         editTextPotencia.setEnabled(false);
         editTextNombre.setEnabled(false);
         editTextBase.setEnabled(false);
+
+
+        String nom = getIntent().getStringExtra("nombre");
+        editTextNombre.setText(nom);
+
+        String base = getIntent().getStringExtra("base");
+        editTextBase.setText(base);
+
 
     }
 

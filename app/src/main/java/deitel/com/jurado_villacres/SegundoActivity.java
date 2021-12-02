@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.os.Bundle;
 import android.view.View;
 
 
@@ -15,7 +14,7 @@ public class SegundoActivity extends AppCompatActivity {
     private EditText txtNombre;
     private Button btnCerrar;
     private EditText txtBase;
-
+    private Button btnSiguiente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +24,8 @@ public class SegundoActivity extends AppCompatActivity {
         btnCerrar = (Button) findViewById(R.id.buttonCerrar);
         //btnCerrar.setEnabled(false);
         txtNombre = (EditText) findViewById(R.id.editTextNombre);
-        txtBase = (EditText) findViewById(R.id.editTextExponente);
-
+        txtBase = (EditText) findViewById(R.id.editTextBase);
+        btnSiguiente = (Button) findViewById(R.id.buttonSiguiente2);
     }
 
     public void Enviar(View view){
