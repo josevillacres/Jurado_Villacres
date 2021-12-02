@@ -45,7 +45,6 @@ public class TercerActivity extends AppCompatActivity {
         String base = getIntent().getStringExtra("base");
         editTextBase.setText(base);
 
-
     }
 
 
