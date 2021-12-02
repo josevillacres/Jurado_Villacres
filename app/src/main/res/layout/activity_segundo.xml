@@ -54,5 +54,6 @@
         android:id="@+id/buttonCerrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="Prueba"
         android:text="@string/btnCerrar" />
 </LinearLayout>

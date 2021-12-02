@@ -37,7 +37,7 @@ public class SegundoActivity extends AppCompatActivity {
     }
     public void Prueba(View view){
         Intent i = new Intent(this, TercerActivity.class);
-        
+
         startActivity(i);
     }
 
